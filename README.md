@@ -1,5 +1,6 @@
 # MySearchView
 MySearchView
+![效果图](https://github.com/wangzl12/MySearchView/blob/master/img/img.png)
 
 带搜索功能的滚动输入框
 
