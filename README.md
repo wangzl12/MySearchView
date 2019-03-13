@@ -6,7 +6,7 @@ MySearchView
 # 添加依赖
 
 项目根目录的build.gradle添加
-`
+```
 buildscript {
     
     repositories {
@@ -21,26 +21,26 @@ allprojects {
         maven { url 'https://jitpack.io' }
     }
 }
-`
+```
 
 app模块下添加依赖
 
-`
+```
 	dependencies {
 	        implementation 'com.github.wangzl12:MySearchView:v1.0'
 	}
-`
+```
 
 # 使用方法
 ## 1.布局文件中
-`
+```
 <com.wangzl.searchview.view.MySerachView
         android:id="@+id/my_search_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-`
+```
 ## 2.类文件中
-`
+```
 public class MainActivity extends AppCompatActivity {
     private MySerachView mySerachView;
     private List<String> mOptionsItems = new ArrayList<>();//传给view的集合
@@ -78,4 +78,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-`
+```
